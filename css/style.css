@@ -6,6 +6,10 @@
   font-family: 'Poppins', sans-serif;
 }
 
+.wrappe{
+  padding: 0 !important;
+}
+
 .wrapper{
   display: inline-flex;
 }
@@ -111,6 +115,74 @@
   font-size: 40px !important;
   margin-top: 15px;
 }
+
+.attents {
+  height: auto;
+  width: 100%;
+  border-radius: 5px;
+  padding: 50px;
+  margin: 0px auto;
+  box-sizing: border-box;
+  background-color: #fff;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.18);
+}
+
+.attents h3 {
+  line-height: 30px;
+  text-transform: none;
+  font-weight: 500;
+  font-size: 18px;
+  color: #212529;
+  margin-bottom: 25px;
+}
+
+.attents table {
+  width: 100% !important;
+  border-color: rgba(0, 0, 0, 0.18);
+}
+
+.attents td {
+  padding: 15px;
+  border-color: rgba(0, 0, 0, 0.18);
+}
+
+.attent{
+  height: auto;
+  width: 100%;
+  border-radius: 5px;
+  padding: 50px;
+  margin: 0px auto;
+  box-sizing: border-box;
+  background-color: #106ba2;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.18);
+}
+
+.attent h3{
+  line-height: 25px;
+  text-transform: none;
+  font-weight: 500;
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 25px;
+}
+.attent h1{
+  position: relative;
+  font-size: 50px;
+  color: #e1306c;
+  width: auto !important;
+}
+.attent h1:after{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  margin: 0px auto 0px 10px;
+  font-style: italic;
+  content: 'SEMANGAT!';
+  font-size: 50px;
+  color: #fff;
+}
+
 @media screen and (max-width: 768px){
   .tit, .tat{
     font-size: 32px !important;
